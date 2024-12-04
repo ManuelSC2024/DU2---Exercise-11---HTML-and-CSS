@@ -1,0 +1,162 @@
+body{
+    display: flex;
+    width: 100vw;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+}
+
+body > header {
+    background-color: #f6f9fe;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    object-position: center;
+}
+
+body > header > nav {
+    display: flex;
+    flex-direction: row;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    font-size: 1em;
+}
+
+body > header > nav > ul > li{
+    padding: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: #4C4B4B;
+}
+
+header > nav > ul > li:nth-of-type(5) > a  {
+    background-color: #372964;
+    color: white;
+    padding: 20px 25px 20px 25px;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 1em;
+    text-wrap: nowrap;
+}
+
+main{
+    background-color: #f6f9fe;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+main > article {
+    width: 60%;
+}
+
+main > article > header {
+    display: flex;
+    flex-direction: column;
+}
+
+main > article > header > p {
+    background-color: #372964;
+    color: #CCC1E5;
+    padding: 2px 10px 2px 10px;
+    border-radius: 12px;
+}
+
+main > article > header > p > a {
+    color: #CCC1E5;
+    text-decoration: underline;
+}
+
+
+main > article > header > h1 {
+    font-size: 3em;
+}
+
+main > article > main {
+    width: 100%;
+}
+
+main > img {
+    width: 20%;
+    height: 20%;
+}
+
+main > article > footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main > article > footer > form > input{
+    border: 0px;
+    width: 500px;
+    height: 70px;
+    font-size: 1em;
+    padding-left: 20px;
+}
+
+main > article > footer > p {
+    background-color: #372964;
+    color: white;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 70px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-left: 30px;
+}
+
+main > article > footer > p > a {
+    color: white;
+}
+
+body > footer {
+    background-color: #f6f9fe;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > nav {
+    width: 87%;
+}
+
+footer > nav > p > a{
+    color: white;
+    text-wrap: nowrap;
+}
+
+footer > nav > ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+footer > nav > ul >li {
+    padding-right: 10px;
+}
